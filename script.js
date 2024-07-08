@@ -26,6 +26,10 @@ botoesOperadores.forEach((botao) => {
   });
 });
 
+limpar.addEventListener('click', ()=>{
+  resultadoConta.textContent = expressao = ''
+})
+
 botaoIgual.addEventListener("click", () => {
   resultadoConta.innerHTML = eval(resultadoConta.textContent)
 });
