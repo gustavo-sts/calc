@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.calc-box{
+    background-color: #4f4f4f;
+    border: 1px  solid #000;
+    padding: 20px;
+
+    border-radius: 20px;
+    margin-top: 5vh;
+}
+
+
+p{
+    border: 1px solid black;
+    height: 30px;
+    text-align: right;
+    box-sizing: border-box;
+    color: white;
+    
+}
+
+.botoes{
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 5px;
+}
+
+.zero{
+    width: 125px
+}
+
+.ponto{
+    grid-column-start: 3;
+}
+
+button{
+    height: 65px;
+    background-color: #935d5d;
+    color: white;
+    border-radius: 10px;
+
+    cursor: pointer
+}
