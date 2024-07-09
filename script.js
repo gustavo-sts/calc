@@ -2,6 +2,7 @@ const resultadoConta = document.querySelector("#resultado");
 const botoesNumeros = document.querySelectorAll("#num"); // Mudança de nome para clareza
 const botoesOperadores = document.querySelectorAll("#op"); // Mudança de nome para clareza
 const botaoIgual = document.querySelector("#res"); // Mudança de nome para clareza
+const limpar = document.querySelector('#clear')
 
 let expressao = ""; // Variável para armazenar a expressão completa
 
